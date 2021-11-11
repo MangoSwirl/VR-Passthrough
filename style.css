@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+#left-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+#left-video, #right-video {
+    min-width: 0px;
+    min-height: 0px;
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #000;
+}
